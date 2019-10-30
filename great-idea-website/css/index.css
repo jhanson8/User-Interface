@@ -77,6 +77,7 @@ nav {
   text-align: center;
   width: 100%;
   padding: 1%;
+  margin: 2%;
 }
 
 nav a {
@@ -89,37 +90,73 @@ header {
   padding: 2%;
   margin: 2%;
   text-align: center;
+  border-bottom: 1px solid black;
+  margin-left: 4.5%;
+  margin-right: 4.5%;
+  padding-bottom: 4%;
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 90px;
+  padding: 4%;
 }
 
-section, footer {
+h2 {
+  text-align: left;
+}
+
+section {
   text-align: center;
+}
+
+footer {
+  text-align: center;
+  margin: 3%;
+  padding: 1%
+}
+
+a.button2 {
+  font-size: 20px;
+  color: black;
+  border: 2px solid grey;
+  padding: 2%;
+  margin: 2%;
 }
 
 .box {
   display: inline-block;
   width: 40%;
-  margin: 2%;
+  padding: 2%;
 }
 
 .boxTwo {
   display: inline-block;
-  width: 35%;
-  margin: 5%;
+  width: 40%;
+  margin: 3%;
+  padding: 1%;
 }
 
 .boxThree {
   display: inline-block;
-  width: 25%;
+  width: 24.5%;
   margin: 3%;
+  padding: 1%;
 }
 
 .middle-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 85%
+  width: 85%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.contact {
+  text-align: left;
+  margin-left: 4.5%;
+  margin-right: 4.5%;
+  margin-top: 3%;
+  padding: 3%;
+  border-top: 1px solid black;
 }
